@@ -1,0 +1,42 @@
+{
+  "name": "J.A.R.V.I.S. - AI Assistant",
+  "short_name": "JARVIS",
+  "description": "Your elite AI operational assistant with voice commands, smart home control, and intelligent reminders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e17",
+  "theme_color": "#00b4d8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Talk to JARVIS",
+      "url": "/?view=chat",
+      "description": "Open JARVIS chat"
+    },
+    {
+      "name": "My Tasks",
+      "url": "/?view=tasks",
+      "description": "View your tasks"
+    },
+    {
+      "name": "Smart Home",
+      "url": "/?view=smarthome",
+      "description": "Control smart home"
+    }
+  ]
+}
